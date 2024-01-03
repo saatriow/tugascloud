@@ -1,0 +1,62 @@
+body {
+    background-color: #1a202c; /* Warna latar belakang */
+    color: #ffffff; /* Warna teks */
+    position: relative;
+}
+
+header {
+    background-color: #2d3748; /* Warna header */
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    border-bottom: 2px solid #1565c0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue', serif;
+}
+
+div {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 8px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    flex-grow: 1;
+    background-color: #4a5568; /* Warna kotak */
+    margin: 4px;
+    padding: 2px;
+    border: 2px solid #2d3748; /* Warna border */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    color: #a0aec0; /* Warna teks footer */
+    text-align: center;
+    padding: 10px;
+}
